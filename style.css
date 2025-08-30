@@ -9,5 +9,17 @@
 
 body{
     width: 100%;
-    
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0c0ce94d;
+}
+
+.container{
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    box-shadow: 5px /*(lado direito)*/ 5px /*base*/ 10px /*efeito saltado (todo)*/
+    rgba(0, 0, .212);
 }
