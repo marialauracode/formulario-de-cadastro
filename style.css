@@ -81,9 +81,25 @@ body{
     display: block;  /* Permite largura, altura e margem */
     background-color: #6c63ff;
     width: 5rem;
-    height: 0.3rem;
-    margin: 0 auto;
-    position: absolute;
+    height: 0.3rem; /* Espessura da linha */
+    margin: 0 auto;  /* Centraliza horizontalmente */
+    position: absolute; /* Posiciona em relação ao elemento pai com position: relative */
     border-radius: 10px;
 }
 
+.input-group{
+    display: flex;
+    flex-wrap: wrap; /*quebra um do lado do outro*/
+    justify-content: space-between;
+    padding:1rem 0;
+}  
+
+.input-box{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+}
+
+.input-box input{
+    margin:0.6rem 0 ;
+}
