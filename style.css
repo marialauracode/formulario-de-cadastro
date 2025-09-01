@@ -107,3 +107,11 @@ body{
     border-radius: 10px;
     box-shadow: 1px 1px 6px #0000001c;
 }
+
+.input-box input:hover{
+    background-color: #eeeeee75;
+}
+
+.input-box input:focus-visible{ /*borda do input*/
+    outline: 1px solid #6c63ff
+}
