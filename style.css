@@ -76,9 +76,9 @@ body{
     font-weight: 500;
 }
 
-.form-header h1::after{
-    content: '';
-    display: block;
+.form-header h1::after{  /* Cria uma linha decorativa embaixo do título h1 */
+    content: ''; /* Cria o pseudo-elemento vazio após o h1 */
+    display: block;  /* Permite largura, altura e margem */
     background-color: #6c63ff;
     width: 5rem;
     height: 0.3rem;
