@@ -62,10 +62,28 @@ body{
     border:none;
     background-color: #6c63ff;
     padding:0.4rem 1rem /*1rem = trata-se da largura, horizontal*/;
+    border-radius: 5px;
+    cursor:pointer;
+}
+
+.login-button button:hover{
+    background-color: #6b63fff1;
 }
 
 .login-button button a{
     color:#fff;
     text-decoration: none;
+    font-weight: 500;
+}
+
+.form-header h1::after{
+    content: '';
+    display: block;
+    background-color: #6c63ff;
+    width: 5rem;
+    height: 0.3rem;
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 10px;
 }
 
