@@ -118,5 +118,11 @@ body{
 
 .input-box label,
 .gender-title h6{
-    
+    font-size:0.75rem;
+    font-weight: 600;
+    color:#000000c0
+}
+
+.input-box input::placeholder{
+    color:#000000be;
 }
