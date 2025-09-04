@@ -138,3 +138,13 @@ body{
     display: flex;
     align-items: center;
 }
+
+.gender-input input{
+    margin-right:0.35rem;
+}
+
+.gender-input label{
+    font-size:0.81rem;
+    font-weight: 700;
+    color:#000000c0
+}
