@@ -148,3 +148,21 @@ body{
     font-weight: 700;
     color:#000000c0
 }
+
+.continue-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.continue-button button{
+    padding:0.38rem;
+    border-radius: 5px;
+    border: none;
+    background-color: #6c63ff;
+}
+
+.continue-button button a{
+    color:#fff;
+    text-decoration: none;
+}
