@@ -156,12 +156,17 @@ body{
 }
 
 .continue-button button{
-    padding:0.38rem;
+    padding:0.6rem;
     border-radius: 5px;
     border: none;
     background-color: #6c63ff;
-    margin-top: 4rem;
+    margin-top: 2.5rem;
     width: 100%;
+    cursor:pointer;
+}
+
+.continue-button button:hover{
+    background-color:#6b63fff1;
 }
 
 .continue-button button a{
