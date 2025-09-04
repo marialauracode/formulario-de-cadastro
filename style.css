@@ -146,7 +146,8 @@ body{
 .gender-input label{
     font-size:0.81rem;
     font-weight: 700;
-    color:#000000c0
+    color:#000000c0;
+    cursor: pointer;
 }
 
 .continue-button {
@@ -156,7 +157,7 @@ body{
 }
 
 .continue-button button{
-    padding:0.6rem;
+    padding:0.62rem;
     border-radius: 5px;
     border: none;
     background-color: #6c63ff;
@@ -171,5 +172,7 @@ body{
 
 .continue-button button a{
     color:#fff;
+    font-size:0.93rem;
+    font-weight: 500;
     text-decoration: none;
 }
