@@ -181,7 +181,7 @@ body{
 
 @media screen and (max-width: 1330px) {
     .form-image{
-        display:none;
+        display:none; /*a imagem some*/
     }
 
     .container{
