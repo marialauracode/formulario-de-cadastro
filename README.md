@@ -1,3 +1,7 @@
+<img width="1919" height="914" alt="image" src="https://github.com/user-attachments/assets/7d23ca85-43e1-4138-94bc-37b76911969e" />
+
+
+
 ## 📂 Sobre o Projeto
 
 * Tela de cadastro desenvolvida em HTML5 e CSS3, criada com o objetivo de treinar lógica e estruturação de formulários na web;
